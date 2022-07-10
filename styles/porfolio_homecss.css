@@ -54,12 +54,6 @@ img {
   flex-direction: row;
 }
 
-@media (max-width: 400px) {
-  .images-logo {
-    flex-direction: column;
-  }
-}
-
 .img1 {
   display: flex;
 
