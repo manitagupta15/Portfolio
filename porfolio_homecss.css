@@ -1,0 +1,92 @@
+body {
+  padding: 10px;
+  background-color: rgb(137, 185, 222);
+}
+
+#home {
+  width: 50px;
+  height: 50px;
+  border-radius: 20pt;
+}
+
+th {
+  padding: 10px;
+}
+
+hr {
+  border-color: #f9d230;
+}
+
+dt {
+  font-size: 20px;
+}
+
+dd {
+  font-size: 18px;
+}
+
+.myname {
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+  margin-right: 20px;
+  align-content: flex-end;
+  align-self: flex-end;
+}
+
+.skills-bottom {
+  width: auto;
+  padding: 10px;
+  border: 2px solid #f9d230;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  width: 50%;
+}
+
+.images-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 400px) {
+  .images-logo {
+    flex-direction: column;
+  }
+}
+
+.img1 {
+  display: flex;
+
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-self: stretch;
+
+  width: 100%;
+}
+
+.index-header {
+  display: flex;
+
+  flex-direction: row;
+
+  padding: 18px;
+  margin-left: 0px;
+  width: auto;
+}
+.index-header > .img2 {
+  display: flex;
+  padding: 18px;
+  margin: auto;
+}
+
+.contents {
+  margin-left: 20px;
+}
