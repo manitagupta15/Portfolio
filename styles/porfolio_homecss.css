@@ -1,6 +1,6 @@
 body {
   padding: 10px;
-  background-color: rgb(137, 185, 222);
+  background-color: rgb(203, 227, 246);
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 1rem;
@@ -108,5 +108,8 @@ img {
   width: 100%;
 }
 .about-me {
+  text-align: justify;
+}
+.about-me-heading {
   text-align: center;
 }
