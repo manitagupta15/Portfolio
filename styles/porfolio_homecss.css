@@ -36,6 +36,8 @@ dt {
 
 dd {
   font-size: 18px;
+  text-align: justify;
+  padding-right: 40px;
 }
 
 .myname {
